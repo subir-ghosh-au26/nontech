@@ -45,7 +45,7 @@
 .footer {
   background-color: rgb(231, 126, 196);
   border-top: 2px solid transparent;
-  position: fixed;
+  /* position: fixed; */
   width: 100%;
   bottom: 0;
   color: white;
