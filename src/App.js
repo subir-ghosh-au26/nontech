@@ -2,6 +2,7 @@ import {Route,Routes} from "react-router-dom"
 import './App.css';
 import Home from "./pages/Home/Home";
 import Room from "./pages/Home/Room/Room";
+import Footer from "./pages/Footer";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Route path="/" element={<Home/>}/>
         <Route path="/room/:roomId" element={<Room/>}/>
       </Routes>
+      <Footer />
      
     </div>
   );
