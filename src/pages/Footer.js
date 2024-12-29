@@ -1,8 +1,11 @@
 import React from "react";
+import "./Navbar/Navbar.css"
 
 const Footer = () =>(
     <footer className="footer">
-        <p>© 2024 Designed and Developed By <a href="https://nontech.in/">NonTech Solutions Private Limited</a>.</p>
+        <img src="./glogo.jpg" alt="logo" className="glogo"/>
+        <p>© 2024 Designed and Developed By <a href="https://gyan-tech.com/">Gyan Technological System Pvt. Ltd.</a></p>
+        
     </footer>
 );
 

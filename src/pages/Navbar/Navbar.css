@@ -2,3 +2,14 @@
     font-size: 25px;
     max-width: 50px;
 }
+
+.glogo{
+    width: 50px;
+    
+}
+
+.footer{
+    display: flex;
+    align-items: flex-end;
+    justify-content: right;
+}

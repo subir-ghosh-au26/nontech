@@ -9,8 +9,8 @@ const Navbar = () => {
       <div class="relative flex items-center justify-between">
         <a
           href="https://scert.bihar.gov.in/"
-          aria-label="Company"
-          title="Company"
+          aria-label="scert"
+          title="scert"
           class="inline-flex items-center"
         >
           <img src='./logo.png' alt='logo' className='logo'/>
@@ -28,10 +28,10 @@ const Navbar = () => {
             <rect x="25" y="1" width="7" height="22" />
           </svg> */}
           <span class="ml-2 text-xl font-bold tracking-wide text-gray-100 uppercase">
-            Video Conference With NonTech
+            SCERT Video Conference
           </span>
         </a>
-        <ul class="flex items-center hidden space-x-8 lg:flex">
+        {/* <ul class="flex items-center hidden space-x-8 lg:flex">
           <li>
             <a
               href="/"
@@ -82,7 +82,7 @@ const Navbar = () => {
               Sign up
             </a>
           </li>
-        </ul>
+        </ul> */}
         <div class="lg:hidden">
           <button
             aria-label="Open Menu"

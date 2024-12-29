@@ -43,14 +43,40 @@
 }
 
 .footer {
-  background-color: rgb(231, 126, 196);
   border-top: 2px solid transparent;
-  /* position: fixed; */
+  position: fixed;
   width: 100%;
   bottom: 0;
-  color: white;
   font-size: 14px;
   padding: 10px 20px;
   align-items: center;
   font-weight: bold;
+}
+
+.room-name{
+  font-weight: bold;
+  color: rgb(167, 5, 5);
+  font-size: xx-large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.room-box{
+  
+  border: 3px solid #000;
+  border-radius: 8px;
+  height: 50px;
+  line-height: normal;
+  color: #282828;
+  display: block;
+  margin-left: 25%;
+  width: 50%;
+  box-sizing: border-box;
+  user-select: auto;
+  font-size: 16px;
+  padding: 0 6px;
+  padding-left: 12px;
+  :focus{
+      border: 3px solid #5551ff;
+  }
+  
 }
